@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-size: clamp(2.5rem, 1.77rem + 3.63vw, 4.5rem);
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-size: clamp(2.25rem, 1.9rem + 1.45vw, 3rem);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --main-bg: hsl(0, 0%, 100%);
+  --text-dark: hsl(233, 14%, 25%);
+  --text-light: hsl(0, 0%, 100%);
+  --hero-bg: hsl(232, 58%, 55%);
+  --button-primary-bg: hsl(180, 100%, 42%);
+  --button-primary-text: hsl(233, 14%, 25%);
+  --button-secondary-bg: transparent;
+  --button-secondary-border: hsl(0, 0%, 100%);
+  --button-secondary-text: hsl(0, 0%, 100%);
+  --fullwidth-bg: hsl(320, 85%, 41%);
+  --cta-dekstop: linear-gradient(
+      90deg,
+      hsla(233, 14%, 25%, 1) 0%,
+      hsla(232, 58%, 55%, 1) 56.34%,
+      hsla(180, 100%, 42%, 1) 112.47%
+  );
+  --cta-mobile: linear-gradient(
+      90deg,
+      hsla(233, 14%, 25%, 1) 0%,
+      hsla(232, 58%, 55%, 1) 76.28%,
+      hsla(180, 100%, 42%, 1) 152.28%
+  );
+}
+
+.wrapper {
+  width: min(100% - 48px, 1200px);
+  margin-inline: auto;
+}/*# sourceMappingURL=style.css.map */

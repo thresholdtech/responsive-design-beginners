@@ -1,0 +1,24 @@
+:root {
+    --main-bg: hsl(0, 0%, 100%);
+    --text-dark: hsl(233, 14%, 25%);
+    --text-light: hsl(0, 0%, 100%);
+    --hero-bg: hsl(232, 58%, 55%);
+    --button-primary-bg: hsl(180, 100%, 42%);
+    --button-primary-text: hsl(233, 14%, 25%);
+    --button-secondary-bg: transparent; 
+    --button-secondary-border: hsl(0, 0%, 100%);
+    --button-secondary-text: hsl(0, 0%, 100%);
+    --fullwidth-bg: hsl(320, 85%, 41%);
+    --cta-dekstop: linear-gradient(
+        90deg,
+        hsla(233, 14%, 25%, 1) 0%,
+        hsla(232, 58%, 55%, 1) 56.34%,
+        hsla(180, 100%, 42%, 1) 112.47%
+    );
+    --cta-mobile: linear-gradient(
+        90deg,
+        hsla(233, 14%, 25%, 1) 0%,
+        hsla(232, 58%, 55%, 1) 76.28%,
+        hsla(180, 100%, 42%, 1) 152.28%
+    );
+}
