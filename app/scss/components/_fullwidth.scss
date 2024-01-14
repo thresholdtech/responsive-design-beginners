@@ -1,0 +1,32 @@
+@use "../util" as u;
+
+.fullwidth {
+    background-color:var(--fullwidth-bg);
+    color: var(--text-light);
+    text-align: center;
+    // margin: auto;
+    // padding: 80px 218px;
+
+    &__wrapper{
+    
+    
+    
+    }
+    
+    &__title{
+        // font-size: 48px;
+        // margin-block-end: 20px;
+    }
+
+    &__description{
+        max-width: 70ch;
+        margin-inline: auto;
+        margin-block-end: u.rem(40);
+    }
+
+    &__image{
+        margin-inline: auto;
+        max-width: u.rem(792);
+    }
+
+}
