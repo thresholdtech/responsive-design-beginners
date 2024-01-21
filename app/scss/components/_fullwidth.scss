@@ -1,9 +1,10 @@
 @use "../util" as u;
 
 .fullwidth {
+    @include u.fullwidthmix;
     background-color:var(--fullwidth-bg);
-    color: var(--text-light);
-    text-align: center;
+   
+    
     // margin: auto;
     // padding: 80px 218px;
 
@@ -18,11 +19,7 @@
         // margin-block-end: 20px;
     }
 
-    &__description{
-        max-width: 70ch;
-        margin-inline: auto;
-        margin-block-end: u.rem(40);
-    }
+    
 
     &__image{
         margin-inline: auto;

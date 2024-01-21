@@ -1,6 +1,6 @@
 @use "../util" as u;
 
-.button{
+.button {
     display: inline-block;
     font-size: u.rem(18);
     line-height: 1;
@@ -21,6 +21,19 @@
         background-color: var(--button-primary-bg-hover);
         border: u.rem(2) solid var(--button-primary-bg-hover);
     }
+    }
+    
+
+&.white{
+    background-color: var(--button-primary-white-bg);
+    
+    border: u.rem(2) solid var(--button-primary-white-bg);
+    &:hover{
+        background-color: var(--button-primary-white-bg-hover);
+        border: u.rem(2) solid var(--button-primary-white-bg-hover);
+    }
+
+
 }
 
 &.secondary{

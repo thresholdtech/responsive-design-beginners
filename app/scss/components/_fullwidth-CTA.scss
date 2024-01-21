@@ -1,0 +1,26 @@
+@use "../util" as u;
+
+.fullwidth-CTA{
+    @include u.fullwidthmix;
+    background: var(--cta-mobile);
+    
+
+    @include u.breakpoint(large){
+        background: var(--cta-dekstop);
+    }
+
+    &__wrapper{
+        text-align: center;
+    }
+
+    &__title{
+
+    }
+    &__description{
+        
+    }
+    &__button{
+
+    }
+
+}
