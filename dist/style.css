@@ -24,6 +24,11 @@ img {
   width: 100%;
 }
 
+figure,
+blockquote {
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   left: -10000px;
@@ -305,4 +310,39 @@ a:active {
 .fullwidth__image {
   margin-inline: auto;
   max-width: 49.5rem;
+}
+
+.testimonial__wrapper {
+  max-width: 50rem;
+}
+.testimonial__icon {
+  width: 16%;
+  max-width: 4.875rem;
+  margin-block-end: clamp(1.25rem, 0.68rem + 2.42vw, 2.5rem);
+}
+.testimonial__quote {
+  font-weight: 700;
+  line-height: 1.25;
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.16rem + 1.45vw, 2.25rem);
+  margin-block-end: 2.5rem;
+}
+.testimonial__author-wrapper {
+  display: inline-flex;
+  gap: 20px 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.testimonial__author {
+  width: 7.5rem;
+  border-radius: 50%;
+}
+.testimonial__author-description {
+  margin-block-end: 0;
+}
+@media (max-width: 28.3112em) {
+  .testimonial__author-description {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
